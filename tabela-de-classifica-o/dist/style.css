@@ -1,0 +1,89 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 400px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('https://images.unsplash.com/photo-1519009843775-0105e5e6d92c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: white;
+}
+
+th, tr, td {
+    border: solid 1px white;
+    color: white;
+}
+
+th {
+  padding: 10px;
+  background-color: peachpuff;
+  color: black;
+}
+
+#tabelaJogadores button {
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10%;
+  padding: 5px;
+  font-size: 12px;
+}
+
+button:hover {
+  opacity: 80%;
+}
+
+section, .legenda, h2, ul, li {
+  text-align: left; 
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+.lista-legenda {
+  font-weight: bold; 
+  color: peachpuff;
+}
+
+.titulo-legenda {
+  margin-top: 80px;
+  color: white; 
+  margin-left: 22px;
+}
